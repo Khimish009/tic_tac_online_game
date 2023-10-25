@@ -8,7 +8,8 @@ export function Header() {
                 src={Logo}
                 alt="logo"
             />
-            <div className='' />
+            <div className='mx-6 h-8 w-px bg-slate-200' />
+            <button className='w-44 bg-teal-600 rounded-lg text-white py-2 px-5 text-2xl leading-tight'>Играть</button>
         </header>
     )
 }
